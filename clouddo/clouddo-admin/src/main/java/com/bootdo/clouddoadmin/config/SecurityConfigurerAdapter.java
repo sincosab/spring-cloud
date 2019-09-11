@@ -1,6 +1,5 @@
 package com.bootdo.clouddoadmin.config;
 
-import com.bootdo.clouddoadmin.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

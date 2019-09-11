@@ -1,4 +1,4 @@
-package com.bootdo.clouddoadmin.config;
+/*package com.bootdo.clouddoadmin.config;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,10 +42,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     AuthenticationAccessDeniedHandler authenticationAccessDeniedHandler;
 
-    /**
-     * 自定义的加密算法
-     * @return
-     */
+
     @Bean
     public PasswordEncoder myPasswordEncoder() {
     	 return new BCryptPasswordEncoder();
@@ -99,4 +96,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             }
         }).and().logout().permitAll().and().csrf().disable().exceptionHandling().accessDeniedHandler(authenticationAccessDeniedHandler);
     }
-}
+}*/

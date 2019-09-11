@@ -55,7 +55,7 @@ public class PermissionsAspect {
 		perms.addAll(ignoredPerms);
 		if (!perms.contains(url)) {
 			if (m == -1) {
-				//throw new RuntimeException("请求地址: " + url + " 无权限 ");
+			   throw new RuntimeException("请求地址: " + url + " 无权限 ");
 			}
 		}
 	}
