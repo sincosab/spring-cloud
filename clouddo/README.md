@@ -18,6 +18,8 @@
 6.启动clouddo-cms 内容管理微服务
 
 7.启动前端项目 https://github.com/sincosab/spring-cloud/tree/master/clouddo-view
-7.启动后端项目 https://github.com/sincosab/spring-cloud/tree/master/clouddo
+
+8.启动后端项目 https://github.com/sincosab/spring-cloud/tree/master/clouddo
+
 ### 系统截图
-![输入图片说明](https://github.com/sincosab/spring-cloud/tree/master/clouddo-view/static/screen.png "屏幕截图.png")
+![输入图片说明](https://raw.githubusercontent.com/sincosab/spring-cloud/master/clouddo-view/static/screen.png "屏幕截图.png")
